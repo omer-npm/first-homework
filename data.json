@@ -1,0 +1,32 @@
+{"_id":{"$oid":"58bf206475d05d5d6eb42782"},"productName":"עוף במרינדה","categoryName":"עיסקיות","price":45}
+{"_id":{"$oid":"58bf214575d05d5d6eb427b7"},"productName":"ממולאים","categoryName":"עיסקיות","price":55}
+{"_id":{"$oid":"58bf215475d05d5d6eb427bb"},"productName":"כדורי בשר","categoryName":"עיסקיות","price":65}
+{"_id":{"$oid":"58bf21a975d05d5d6eb427d1"},"productName":"רגיל","categoryName":"פיצות","price":7}
+{"_id":{"$oid":"58bf21ce75d05d5d6eb427d7"},"productName":"זיתים","categoryName":"פיצות","price":9}
+{"_id":{"$oid":"58bf220175d05d5d6eb427e3"},"productName":"טונה","categoryName":"פיצות","price":10}
+{"_id":{"$oid":"58bf223375d05d5d6eb427f2"},"productName":"בולגרית","categoryName":"פיצות","price":12}
+{"_id":{"$oid":"58bf22db75d05d5d6eb42818"},"productName":"סלט קצוץ גדול","categoryName":"סלטים","price":30}
+{"_id":{"$oid":"58bf231475d05d5d6eb42826"},"productName":"סלט שניצל","categoryName":"סלטים","price":40}
+{"_id":{"$oid":"58bf233c75d05d5d6eb4282c"},"productName":"סלט פרגית","categoryName":"סלטים","price":50}
+{"_id":{"$oid":"58bf23bb75d05d5d6eb42846"},"productName":"מוס שוקולד","categoryName":"קינוחים","price":12}
+{"_id":{"$oid":"58bf242c75d05d5d6eb42860"},"productName":"מלבי","categoryName":"קינוחים","price":12}
+{"_id":{"$oid":"58bf244775d05d5d6eb4286a"},"productName":"בוואריה","categoryName":"קינוחים","price":12}
+{"_id":{"$oid":"58bf248975d05d5d6eb42878"},"productName":"סלט טאבולה","categoryName":"סלטים","price":25}
+{"_id":{"$oid":"58bf24f775d05d5d6eb42892"},"productName":"חציל קלוי","categoryName":"פינוקים","price":29}
+{"_id":{"$oid":"58bf251d75d05d5d6eb42898"},"productName":"כרוב בתנור","categoryName":"פינוקים","price":29}
+{"_id":{"$oid":"58bf25c575d05d5d6eb428ba"},"productName":"סמבוסק בולגרית","categoryName":"מאפים","price":17}
+{"_id":{"$oid":"58bf260875d05d5d6eb428cc"},"productName":"בייבי פסטרמה גחלים","categoryName":"מאפים","price":15}
+{"_id":{"$oid":"58bf265175d05d5d6eb428dc"},"productName":"בורקס פינוקים","categoryName":"מאפים","price":15}
+{"_id":{"$oid":"58bf268f75d05d5d6eb428ea"},"productName":"ג'חנון","categoryName":"תימני","price":15}
+{"_id":{"$oid":"58bf26bd75d05d5d6eb428f6"},"productName":"מלוואח","categoryName":"תימני","price":15}
+{"_id":{"$oid":"58bf275975d05d5d6eb42918"},"productName":"פומודורו","categoryName":"פסטות","price":60}
+{"_id":{"$oid":"58bf278c75d05d5d6eb42926"},"productName":"שמנת ערמונים","categoryName":"פסטות","price":65}
+{"_id":{"$oid":"58bf27b175d05d5d6eb4292c"},"productName":"בלונז","categoryName":"פסטות","price":75}
+{"_id":{"$oid":"58bf27cb75d05d5d6eb42936"},"productName":"רוזה","categoryName":"פסטות","price":55}
+{"_id":{"$oid":"58bf284e75d05d5d6eb42950"},"productName":"קוקה קולה","categoryName":"שתיה","price":14}
+{"_id":{"$oid":"58bf286775d05d5d6eb42956"},"productName":"קוקה קולה זירו","categoryName":"שתיה","price":14}
+{"_id":{"$oid":"58bf288f75d05d5d6eb42960"},"productName":"פריגת ענבים","categoryName":"שתיה","price":9}
+{"_id":{"$oid":"58bf28a475d05d5d6eb42966"},"productName":"מים מינרלים","categoryName":"שתיה","price":8}
+{"_id":{"$oid":"58bf28d775d05d5d6eb42972"},"productName":"פריגת תפוזים","categoryName":"שתיה","price":9}
+{"_id":{"$oid":"58bf290e75d05d5d6eb42980"},"productName":"מים בטעם תפוח","categoryName":"שתיה","price":9}
+{"_id":{"$oid":"58bf294275d05d5d6eb4298c"},"productName":"פיוזטי אפרסק","categoryName":"שתיה","price":10}

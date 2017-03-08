@@ -1,0 +1,77 @@
+<html ng-app="homework">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./js/style.css">
+    </head>
+    <body ng-controller="main">
+        <div class="container" style="width:100%" >
+            <div class="row">
+                <div ng-class="showgraphSidebar ? 'col-xs-4 col-md-2' : 'hidden'" id="colPush" >
+                        <ul class="nav nav-pills nav-stacked full-height bac-red">
+                            <li ng-repeat="item in sidebar" class="sidebar bac-red t-middle"><a href="#" aria-expanded="false" class="col-white center-a" id="btn-1" data-toggle="collapse" data-target="#submenu1">{{item.name}}</a><!--id="btn-1" data-toggle="collapse" data-target="#submenu1"-->
+                                <ul ng-if="item.sub == true" class="nav collapse" role="menu" aria-labelledby="btn-1" id="submenu1"><!-- collapse -->
+                                    <li ng-repeat="temp in item.category" class="bac-green"><a href="#" class="col-white t-right center-a" ng-click="setCategory(temp.name)">{{temp.name}}</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </div>
+                <div ng-class="showgraphSidebar ? 'col-xs-8 col-md-10' : 'col-xs-12'"  id="colMain">
+                    <nav class="navbar navbar-default bac-red">
+                        <div class="container-fluid col-white t-middle">
+                            <i class="fa fa-bars myicon c-left" aria-hidden="true"  ng-click='toggle()'></i>
+                            <span class="t-vertical" ng-if='search.trim() === ""'>{{category}}</span>
+                            <span class="t-vertical" ng-if='search.trim() !== ""'>חיפוש</span>
+                        </div>
+                    </nav>
+                    <div>
+                        <input type="text" class="form-control i-style" ng-model="search" placeholder="חיפוש">
+                    </div>
+                    <div class="space-f-btn">
+                        <ul class="list-group">
+                            <li ng-if='search.trim() === ""' class="list-group-item" ng-repeat="item in products">
+                                <div class="row">
+                                    <div class="col-xs-4 c-right">
+                                        <img src="./images/ex.jpg" class="img-responsive img-rounded">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <i class="fa fa-plus-circle fa-2x c-left img-vertical" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span>
+                                            <span class="name c-right">{{item.productName}}</span><br>
+                                            <span class="price c-right">₪{{item.price}}</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li ng-if='search.trim() !== ""' class="list-group-item" ng-repeat="item in all | filter:{ productName: search }">
+                                <div class="row">
+                                    <div class="col-xs-4 c-right">
+                                        <img src="./images/ex.jpg" class="img-responsive img-rounded">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <i class="fa fa-plus-circle fa-2x c-left img-vertical" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span>
+                                            <span class="name c-right">{{item.productName}}</span><br>
+                                            <span class="price c-right">₪{{item.price}}</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul><br><br>
+                    </div>
+                    <div class="footer t-middle">
+                        <button type="button" class="btn btn-custom bac-red col-white">הזמן</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

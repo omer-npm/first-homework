@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "watchify ./src/app.js -o ./public/js/index.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.8.6"
+  },
+  "devDependencies": {
+    "watchify": "^3.9.0"
+  }
+}
